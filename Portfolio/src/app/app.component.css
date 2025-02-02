@@ -1,0 +1,24 @@
+#mainTitleLabel{
+    font-family: 'Brush Script MT';
+    font-weight: bolder; 
+    color: rgb(92, 91, 91);
+    font-size: x-large;
+    margin-left: 22px;
+    letter-spacing: 3px;
+}
+
+#mainTitleBackground{
+    background-color: rgb(240, 240, 240);
+    border: 3px solid rgb(92, 91, 91);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 200px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.navItem{
+    font-family: cursive;
+}
