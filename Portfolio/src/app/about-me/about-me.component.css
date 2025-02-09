@@ -1,0 +1,41 @@
+.AboutMe-Main-Container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(43, 40, 40);
+}
+
+.User-DP img{
+    width: 13vw;
+    height: 13vw; 
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.AboutMe-Main-Text{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Arial', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    right: 25%;
+}
+
+.AboutMe-Sub-Text{
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    right: 25%;
+}

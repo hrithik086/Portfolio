@@ -1,19 +1,11 @@
 <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
   <li>
     <div id="mainTitleBackground">
-		  <Label id="mainTitleLabel">My Portfolio</Label>
+		  <Label id="mainTitleLabel">K Hrithik Rao</Label>
     </div>
 	</li>
 	<li [ngbNavItem]="1">
 		<button ngbNavLink class="navItem">About Me</button>
-		<ng-template ngbNavContent>
-			<p>
-				Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
-				master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
-				keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
-				salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
-			</p>
-		</ng-template>
 	</li>
 	<li [ngbNavItem]="2">
 		<button ngbNavLink class="navItem">Skills</button>
@@ -57,6 +49,4 @@
 	</li>
 </ul>
 
-<div [ngbNavOutlet]="nav" class="mt-2"></div>
-
-<pre>Active: {{ active }}</pre>
+<app-about-me></app-about-me>
